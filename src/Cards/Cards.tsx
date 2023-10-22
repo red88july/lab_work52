@@ -25,12 +25,13 @@ const Cards: React.FC<Props> = ({ rank, suit }) => {
     }
 
     return (
-    <div className="playingCards faceImages">
+        <div className="playingCards faceImages">
         <span className={`card rank-${rank} ${suit}`}>
             <span className="rank">{rank}</span>
             <span className="suit">{symbol}</span>
         </span>
-     </div>
+        </div>
+
     );
 };
 
